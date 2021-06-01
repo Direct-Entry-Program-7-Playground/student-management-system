@@ -21,13 +21,13 @@ public class Navigator {
         Parent load = FXMLLoader.load(root);
         Scene scene = new Scene(load);
 
-        if(!stage.getStyle().equals(StageStyle.UNDECORATED)){
-            stage.initStyle(StageStyle.UNDECORATED);
-        }
+//        if(!stage.getStyle().equals(StageStyle.UNDECORATED)){
+//            stage.initStyle(StageStyle.UNDECORATED);
+//        }
         stage.setScene(scene);
-        stage.setTitle(title);
-        stage.centerOnScreen();
-        stage.setResizable(false);
         stage.show();
+        stage.setTitle(title);
+        stage.setResizable(false);
+        stage.centerOnScreen();
     }
 }

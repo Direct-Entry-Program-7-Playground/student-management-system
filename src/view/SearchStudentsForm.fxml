@@ -18,7 +18,7 @@
          <children>
             <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
                <children>
-                  <JFXHamburger id="btnMainMenu" maxHeight="50.0" prefHeight="50.0" prefWidth="50.0" HBox.hgrow="NEVER" />
+                  <JFXHamburger fx:id="btnMainMenu" maxHeight="50.0" onMouseClicked="#btnMainMenu_OnClicked" prefHeight="50.0" prefWidth="50.0" HBox.hgrow="NEVER" />
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" HBox.hgrow="ALWAYS">
                      <children>
                         <ImageView id="addStudentImg" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
