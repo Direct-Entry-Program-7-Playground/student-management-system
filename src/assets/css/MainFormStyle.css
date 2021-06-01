@@ -1,0 +1,32 @@
+.btn:hover {
+    -fx-border-width: 2;
+    -fx-border-color: #6200ee;
+    -fx-border-radius: 5;
+}
+.btn{
+    -fx-border-width: 2;
+    -fx-border-color: gray;
+    -fx-border-radius: 5;
+}
+.btn .jfx-rippler{
+    -jfx-rippler-fill:#6200ee;
+}
+.btn_main-text{
+    -fx-font-size: 20;
+    -fx-font-weight: 400;
+}
+.btn_sub-text{
+    -fx-font-size: 12;
+    -fx-font-weight: 400;
+}
+
+.title{
+    -fx-font-size: 28;
+    -fx-font-weight: 700;
+}
+#addStudentImg{
+-fx-image: url("../img/Student_Registration.png");
+}
+#serchStudentImg{
+-fx-image: url("../img/Search_Client.png");
+}

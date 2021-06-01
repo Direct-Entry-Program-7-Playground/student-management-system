@@ -1,3 +1,5 @@
+package src;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -15,8 +17,8 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        URL resource = getClass().getResource("view/MainForm.fxml");
-        Parent load = FXMLLoader.load(resource);
+        URL root = getClass().getResource("view/MainForm.fxml");
+        Parent load = FXMLLoader.load(root);
         Scene scene = new Scene(load);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Student Management System");

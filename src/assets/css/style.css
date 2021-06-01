@@ -1,0 +1,33 @@
+.JFXTextField {
+    -jfx-focus-color: #6200ee;
+    -fx-max-height: 30
+;
+}
+
+#btnMainMenu {
+
+}
+
+#addStudentImg {
+    -fx-image: url("../img/Student_Registration.png");
+}
+#editStudentImg{
+    -fx-image: url("../img/Student_Male.png");
+}
+#searchStudentImg{
+    -fx-image: url("../img/Search_Client.png");
+}
+.btn:hover {
+     -fx-border-width: 2;
+     -fx-border-color: #6200ee;
+     -fx-border-radius: 5;
+ }
+.btn{
+    -fx-border-width: 2;
+    -fx-border-color: gray;
+    -fx-border-radius: 5;
+}
+
+.btn .jfx-rippler{
+    -jfx-rippler-fill:#6200ee;
+}
