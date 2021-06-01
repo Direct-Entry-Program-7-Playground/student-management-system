@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import src.utill.Navigator;
 
 import java.io.IOException;
 import java.net.URL;
@@ -17,13 +18,8 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        URL root = getClass().getResource("view/MainForm.fxml");
-        Parent load = FXMLLoader.load(root);
-        Scene scene = new Scene(load);
-        primaryStage.setScene(scene);
-        primaryStage.setTitle("Student Management System");
-        primaryStage.centerOnScreen();
-        primaryStage.setResizable(false);
-        primaryStage.show();
+
+        new Navigator(primaryStage, "Student Management System", "../view/MainForm.fxml");
+
     }
 }
